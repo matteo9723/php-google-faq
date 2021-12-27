@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  display: flex;
+  margin: 20px;
+}
+img{
+  height: 50px;
+}
+span{
+  line-height: 50px;
+  display: inline-block;
+  color: rgb(73, 71, 71);
+  font-size: 25px;
+}
+
+.menu{
+  border-bottom: 1px solid gray;
+  padding-bottom:20px ;
+}
+
+.menu ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.menu ul li{
+  margin: 0 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu ul li.active{
+  color: rgb(49, 49, 243);
+}
+
+.menu ul li.active .underline{
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: blue;
+  bottom: -20px;
+}
+
+.main{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.main div p{
+  padding-bottom: 20px;
+}
+.main h2{
+  margin: 20px 0;
+  color: rgb(51, 51, 51) ;
+}
